@@ -1,0 +1,137 @@
+body {
+	background: #f9e933;
+	font-size: 100%;
+	font-family: 'Droid sans', sans-serif;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+h2 {
+	font-size: 250%;
+}
+
+h3 {
+	font-size: 200%;
+}
+
+h4 {
+	font-size: 150%;
+}
+
+h5 {
+	font-size: 120%;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: auto;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+}
+
+.company-name {
+	font-style: italic;
+	color: firebrick;
+}
+
+header nav {
+	float: right;
+	width: 285px;
+}
+
+main {
+	background: white;
+	border-top: gray 1px solid;
+	border-bottom: gray 1px solid;
+	font-weight: bold;
+}
+
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span.active {
+	background: #eee;
+}
+
+footer {
+	padding-top: 40px;
+}
+
+footer .container {
+	overflow: auto;
+}
+
+.contact {
+	float: left;
+	width: 570px;
+}
+
+.contact-heading {
+	padding-bottom: 20px;
+}
+
+.contact p {
+	margin-bottom: 5px;
+}
+
+.sitemap {
+	float: right;
+	width: 285px;
+}
+
+.sitemap-heading {
+	padding-bottom: 20px;
+}
+
+.sitemap-links-left {
+	float: left;
+}
+
+.sitemap-links-right {
+	float: right;
+}
+
+.sitemap-links {
+
+}
+
+.sitemap-links li {
+	margin-bottom: 10px;
+}
